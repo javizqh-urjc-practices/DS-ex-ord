@@ -43,11 +43,13 @@ bool CLLoginInterface::enterAsGuest(){
   
   newLine(3);
   printCenterFromFile("config/LANG/" + globalConfig->getLanguage() + "/login/askGuest.txt",*globalConfig->getFontColor(),*globalConfig->getBackgroundColor(),5);
+  
+  char * inputBuffer = new char[100];
+  std::cin.getline(inputBuffer ,100);
+  std::string response = inputBuffer;
 
-  char response;
-  std::cin >> response;
+  return response.compare("Y") == 0;
 
-  return response == 'Y';
 }
 
 void CLLoginInterface::askEmployeeNumber(){
