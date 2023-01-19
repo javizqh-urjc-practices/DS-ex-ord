@@ -1,0 +1,1 @@
+log    prints the last log timestamp

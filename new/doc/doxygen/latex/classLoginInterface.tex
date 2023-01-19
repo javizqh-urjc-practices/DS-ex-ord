@@ -1,0 +1,117 @@
+\hypertarget{classLoginInterface}{}\doxysection{Login\+Interface Class Reference}
+\label{classLoginInterface}\index{LoginInterface@{LoginInterface}}
+
+
+Inheritance diagram for Login\+Interface\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classLoginInterface__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Login\+Interface\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{classLoginInterface__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classLoginInterface_ab3818c962629aa9d715df635aca40f7b}\label{classLoginInterface_ab3818c962629aa9d715df635aca40f7b}} 
+void {\bfseries set\+Global\+Config} (\mbox{\hyperlink{classGlobalConfig}{Global\+Config}} $\ast$config)
+\item 
+\mbox{\Hypertarget{classLoginInterface_a43cf3c6ebcd9ec14490e488698570cf5}\label{classLoginInterface_a43cf3c6ebcd9ec14490e488698570cf5}} 
+virtual void {\bfseries show\+Welcome\+Message} ()=0
+\item 
+\mbox{\Hypertarget{classLoginInterface_aa9a4c710ed958a061f94c17882fb65e1}\label{classLoginInterface_aa9a4c710ed958a061f94c17882fb65e1}} 
+virtual bool {\bfseries enter\+As\+Guest} ()=0
+\item 
+\mbox{\Hypertarget{classLoginInterface_aec05253185dddb813c10b7e102a5c255}\label{classLoginInterface_aec05253185dddb813c10b7e102a5c255}} 
+virtual void {\bfseries ask\+Employee\+Number} ()=0
+\item 
+\mbox{\Hypertarget{classLoginInterface_a34da26efc71c964f94e24a50bef0a997}\label{classLoginInterface_a34da26efc71c964f94e24a50bef0a997}} 
+virtual void {\bfseries ask\+Employee\+Number} (const std\+::string \&user\+Number)=0
+\item 
+\mbox{\Hypertarget{classLoginInterface_a3cbe2c32c14cd885efba46f6e6909bd8}\label{classLoginInterface_a3cbe2c32c14cd885efba46f6e6909bd8}} 
+virtual void {\bfseries ask\+NIF} ()=0
+\item 
+\mbox{\Hypertarget{classLoginInterface_a3be6f71661654e06f1ed18f033a384e6}\label{classLoginInterface_a3be6f71661654e06f1ed18f033a384e6}} 
+virtual void {\bfseries ask\+NIF} (const std\+::string \&user\+Number)=0
+\item 
+void \mbox{\hyperlink{classLoginInterface_ade94f5e4d8c3792c6d2ca86385e9c7e3}{check\+User}} (\mbox{\hyperlink{classUser}{User}} \&current\+User)
+\begin{DoxyCompactList}\small\item\em Sets the user pass to the corresponding employee number and NIF in the database. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classLoginInterface_a541e6fc733c119a7d01af50d32ac1340}\label{classLoginInterface_a541e6fc733c119a7d01af50d32ac1340}} 
+{\bfseries Login\+Interface} (\mbox{\hyperlink{classLoginInterface}{Login\+Interface}} \&other\+Login\+Interface)=delete
+\item 
+\mbox{\Hypertarget{classLoginInterface_af5b07b8b1ee3fa4515309d17c33a838d}\label{classLoginInterface_af5b07b8b1ee3fa4515309d17c33a838d}} 
+void {\bfseries operator=} (const \mbox{\hyperlink{classLoginInterface}{Login\+Interface}} \&)=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classLoginInterface}{Login\+Interface}} $\ast$ \mbox{\hyperlink{classLoginInterface_a8684c10e4fff3b3313ad72b9ea88b5a3}{Create}} (const std\+::string=\char`\"{}CLI\char`\"{})
+\begin{DoxyCompactList}\small\item\em Create a new Login interface instance of the type specified. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classLoginInterface_a42d66ae46c43d765411694286efb7fe2}\label{classLoginInterface_a42d66ae46c43d765411694286efb7fe2}} 
+\mbox{\hyperlink{classDatabase}{Database}} $\ast$ {\bfseries database}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classLoginInterface_a81fb323b58e44187a63e7b201c531d04}\label{classLoginInterface_a81fb323b58e44187a63e7b201c531d04}} 
+std\+::string {\bfseries input\+NIF}
+\item 
+\mbox{\Hypertarget{classLoginInterface_a105c8de5747f01cd14b9457902e1ae58}\label{classLoginInterface_a105c8de5747f01cd14b9457902e1ae58}} 
+std\+::string {\bfseries input\+Employee\+Number}
+\item 
+\mbox{\Hypertarget{classLoginInterface_a711ebd3b160a2d542568aa35bba71423}\label{classLoginInterface_a711ebd3b160a2d542568aa35bba71423}} 
+\mbox{\hyperlink{classGlobalConfig}{Global\+Config}} $\ast$ {\bfseries global\+Config}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classLoginInterface_ade94f5e4d8c3792c6d2ca86385e9c7e3}\label{classLoginInterface_ade94f5e4d8c3792c6d2ca86385e9c7e3}} 
+\index{LoginInterface@{LoginInterface}!checkUser@{checkUser}}
+\index{checkUser@{checkUser}!LoginInterface@{LoginInterface}}
+\doxysubsubsection{\texorpdfstring{checkUser()}{checkUser()}}
+{\footnotesize\ttfamily void Login\+Interface\+::check\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classUser}{User}} \&}]{current\+User }\end{DoxyParamCaption})}
+
+
+
+Sets the user pass to the corresponding employee number and NIF in the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+User} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classLoginInterface_a8684c10e4fff3b3313ad72b9ea88b5a3}\label{classLoginInterface_a8684c10e4fff3b3313ad72b9ea88b5a3}} 
+\index{LoginInterface@{LoginInterface}!Create@{Create}}
+\index{Create@{Create}!LoginInterface@{LoginInterface}}
+\doxysubsubsection{\texorpdfstring{Create()}{Create()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classLoginInterface}{Login\+Interface}} $\ast$ Login\+Interface\+::\+Create (\begin{DoxyParamCaption}\item[{const std\+::string}]{type = {\ttfamily \char`\"{}CLI\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Create a new Login interface instance of the type specified. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & Type of login interface \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Login\+Interface$\ast$ New login interface instance 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{LoginInterface_8h}{Login\+Interface.\+h}}\item 
+src/\mbox{\hyperlink{LoginInterface_8cpp}{Login\+Interface.\+cpp}}\end{DoxyCompactItemize}

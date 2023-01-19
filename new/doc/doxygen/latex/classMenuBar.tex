@@ -1,0 +1,87 @@
+\hypertarget{classMenuBar}{}\doxysection{Menu\+Bar Class Reference}
+\label{classMenuBar}\index{MenuBar@{MenuBar}}
+
+
+Inheritance diagram for Menu\+Bar\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classMenuBar__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Menu\+Bar\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{classMenuBar__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMenuBar_a56732871dd9b124bfbad2d40c82741b8}\label{classMenuBar_a56732871dd9b124bfbad2d40c82741b8}} 
+virtual void {\bfseries show} ()=0
+\item 
+\mbox{\Hypertarget{classMenuBar_ab448fa94fc2bc68d98cecfd4caca1141}\label{classMenuBar_ab448fa94fc2bc68d98cecfd4caca1141}} 
+void {\bfseries set\+User} (\mbox{\hyperlink{classUser}{User}} \&user)
+\item 
+void \mbox{\hyperlink{classMenuBar_ade90727acc5c6b5bcb2dc732c26787d9}{set\+Current\+Menu}} (std\+::string current\+Menu)
+\begin{DoxyCompactList}\small\item\em Sets the current menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classMenuBar}{Menu\+Bar}} $\ast$ \mbox{\hyperlink{classMenuBar_a552f57a2d44759d6b18e985049ddc9a3}{Create}} (const std\+::string type=\char`\"{}CLI\char`\"{})
+\begin{DoxyCompactList}\small\item\em Create a new \mbox{\hyperlink{classMenu}{Menu}} bar instance of the type specified. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMenuBar_a5ff5bf1558b1006aa377386be5c902d7}\label{classMenuBar_a5ff5bf1558b1006aa377386be5c902d7}} 
+\mbox{\hyperlink{classUser}{User}} {\bfseries user}
+\item 
+\mbox{\Hypertarget{classMenuBar_a3046a045e667878f9592359fbc91f2b5}\label{classMenuBar_a3046a045e667878f9592359fbc91f2b5}} 
+std\+::string {\bfseries current\+Menu}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMenuBar_a552f57a2d44759d6b18e985049ddc9a3}\label{classMenuBar_a552f57a2d44759d6b18e985049ddc9a3}} 
+\index{MenuBar@{MenuBar}!Create@{Create}}
+\index{Create@{Create}!MenuBar@{MenuBar}}
+\doxysubsubsection{\texorpdfstring{Create()}{Create()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classMenuBar}{Menu\+Bar}} $\ast$ Menu\+Bar\+::\+Create (\begin{DoxyParamCaption}\item[{const std\+::string}]{type = {\ttfamily \char`\"{}CLI\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Create a new \mbox{\hyperlink{classMenu}{Menu}} bar instance of the type specified. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & Type of menu bar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Menu\+Bar$\ast$ New menu bar instance 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classMenuBar_ade90727acc5c6b5bcb2dc732c26787d9}\label{classMenuBar_ade90727acc5c6b5bcb2dc732c26787d9}} 
+\index{MenuBar@{MenuBar}!setCurrentMenu@{setCurrentMenu}}
+\index{setCurrentMenu@{setCurrentMenu}!MenuBar@{MenuBar}}
+\doxysubsubsection{\texorpdfstring{setCurrentMenu()}{setCurrentMenu()}}
+{\footnotesize\ttfamily void Menu\+Bar\+::set\+Current\+Menu (\begin{DoxyParamCaption}\item[{std\+::string}]{current\+Menu }\end{DoxyParamCaption})}
+
+
+
+Sets the current menu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Menu} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{MenuBar_8h}{Menu\+Bar.\+h}}\item 
+src/\mbox{\hyperlink{MenuBar_8cpp}{Menu\+Bar.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,1 @@
+set (<on|off> /or/ <area|val|state> <new_value>)  set sensor value

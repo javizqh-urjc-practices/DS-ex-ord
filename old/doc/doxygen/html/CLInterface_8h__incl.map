@@ -1,0 +1,32 @@
+<map id="include/CLInterface.h" name="include/CLInterface.h">
+<area shape="rect" id="node1" title="Header file of CLInterface.cpp." alt="" coords="537,5,695,32"/>
+<area shape="rect" id="node2" href="$Interface_8h.html" title="Header file of Interface.cpp." alt="" coords="351,80,443,107"/>
+<area shape="rect" id="node27" href="$CLIUtils_8h.html" title="Header file of CLIUtils.cpp." alt="" coords="641,304,725,331"/>
+<area shape="rect" id="node30" title=" " alt="" coords="653,80,728,107"/>
+<area shape="rect" id="node3" href="$LoginInterface_8h.html" title="Header file of LoginInterface.cpp." alt="" coords="385,155,511,181"/>
+<area shape="rect" id="node5" href="$Admin_8h.html" title="Header file of Admin.cpp." alt="" coords="154,304,230,331"/>
+<area shape="rect" id="node21" href="$Dashboard_8h.html" title="Header file of Dashboard.cpp." alt="" coords="140,155,244,181"/>
+<area shape="rect" id="node4" href="$Database_8h.html" title="Header file of Database.cpp." alt="" coords="400,229,496,256"/>
+<area shape="rect" id="node20" href="$GlobalConfig_8h.html" title=" " alt="" coords="829,229,947,256"/>
+<area shape="rect" id="node15" title=" " alt="" coords="61,603,152,629"/>
+<area shape="rect" id="node16" title=" " alt="" coords="573,304,616,331"/>
+<area shape="rect" id="node17" title=" " alt="" coords="881,379,954,405"/>
+<area shape="rect" id="node18" title=" " alt="" coords="403,379,483,405"/>
+<area shape="rect" id="node19" title=" " alt="" coords="478,304,549,331"/>
+<area shape="rect" id="node6" href="$User_8h.html" title="Header file of User.cpp." alt="" coords="264,379,328,405"/>
+<area shape="rect" id="node7" title=" " alt="" coords="267,603,325,629"/>
+<area shape="rect" id="node8" title=" " alt="" coords="195,453,258,480"/>
+<area shape="rect" id="node9" title=" " alt="" coords="565,453,632,480"/>
+<area shape="rect" id="node10" title=" " alt="" coords="656,453,715,480"/>
+<area shape="rect" id="node11" title=" " alt="" coords="465,453,541,480"/>
+<area shape="rect" id="node12" href="$UserConfig_8h.html" title="Header file of UserConfig.cpp." alt="" coords="333,453,440,480"/>
+<area shape="rect" id="node13" href="$Config_8h.html" title=" " alt="" coords="349,528,425,555"/>
+<area shape="rect" id="node14" title=" " alt="" coords="724,603,780,629"/>
+<area shape="rect" id="node22" href="$MenuBar_8h.html" title="Header file of MenuBar.cpp." alt="" coords="62,229,154,256"/>
+<area shape="rect" id="node23" href="$Menu_8h.html" title="Header file of Menu.cpp." alt="" coords="230,229,301,256"/>
+<area shape="rect" id="node24" href="$Sensor_8h.html" title="Header file of Sensor.cpp." alt="" coords="323,304,402,331"/>
+<area shape="rect" id="node25" title=" " alt="" coords="507,379,592,405"/>
+<area shape="rect" id="node26" title=" " alt="" coords="616,379,691,405"/>
+<area shape="rect" id="node28" href="$MinTerminalSize_8h.html" title=" " alt="" coords="715,379,856,405"/>
+<area shape="rect" id="node29" title=" " alt="" coords="790,453,877,480"/>
+</map>

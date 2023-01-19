@@ -1,0 +1,215 @@
+\hypertarget{classUser}{}\doxysection{User Class Reference}
+\label{classUser}\index{User@{User}}
+
+
+Inheritance diagram for User\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{classUser__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for User\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{classUser__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUser_a54794305b09de5dddd9fae6d3ba38b6f}{User}} (std\+::string number=\char`\"{}00000\char`\"{}, std\+::string nif=\char`\"{}00000000\char`\"{}, std\+::string name=\char`\"{}default\char`\"{})
+\begin{DoxyCompactList}\small\item\em Create a new \mbox{\hyperlink{classUser}{User}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUser_a4f0cfc222526de7f6a56da4948340bed}\label{classUser_a4f0cfc222526de7f6a56da4948340bed}} 
+{\bfseries User} (\mbox{\hyperlink{classUserConfig}{User\+Config}} \mbox{\hyperlink{classUserConfig}{User\+Config}}, std\+::string number=\char`\"{}00000\char`\"{}, std\+::string nif=\char`\"{}00000000\char`\"{}, std\+::string name=\char`\"{}default\char`\"{})
+\item 
+void \mbox{\hyperlink{classUser_a46ab8fe4ca46beed7de6735085ab77dc}{set\+NIF}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em Set the user NIF. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUser_a813d614d8d9e869eb86dfd838d132232}\label{classUser_a813d614d8d9e869eb86dfd838d132232}} 
+std\+::string {\bfseries get\+NIF} () const
+\item 
+\mbox{\Hypertarget{classUser_a270311fbb4351c5ca8bbc3eeeb96a8cb}\label{classUser_a270311fbb4351c5ca8bbc3eeeb96a8cb}} 
+bool {\bfseries is\+Same\+NIF} (std\+::string NIF)
+\item 
+void \mbox{\hyperlink{classUser_a4e454cafcaf339c671a8127b28de84d5}{set\+Employee\+Number}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em Set the user employee number. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUser_a5fb7b88cb294cbd73f3df68345190892}\label{classUser_a5fb7b88cb294cbd73f3df68345190892}} 
+std\+::string {\bfseries get\+Employee\+Number} () const
+\item 
+\mbox{\Hypertarget{classUser_acb3d90f32e566c0f15520446698fa98d}\label{classUser_acb3d90f32e566c0f15520446698fa98d}} 
+bool {\bfseries is\+Same\+Employee\+Number} (std\+::string employee\+Number)
+\item 
+std\+::string \mbox{\hyperlink{classUser_a446a64e63adafbc2e1428532275ad6a1}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Returns the user name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUser_a1ed70c803e652080780207fd3982832a}\label{classUser_a1ed70c803e652080780207fd3982832a}} 
+void {\bfseries set\+Name} (std\+::string new\+Name)
+\item 
+\mbox{\Hypertarget{classUser_ad1d7fa5507af511fc90e81a906498ed8}\label{classUser_ad1d7fa5507af511fc90e81a906498ed8}} 
+void \mbox{\hyperlink{classUser_ad1d7fa5507af511fc90e81a906498ed8}{add\+Timestamp}} ()
+\begin{DoxyCompactList}\small\item\em Set the timestamp. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUser_a1daf9314be358e15302de3a870895205}{get\+Timestamp}} () const
+\begin{DoxyCompactList}\small\item\em Returns the timestamp. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUser_adc1e2382a4d6cb7887a65461487e3a7b}{has\+Admin\+Permission}} ()
+\begin{DoxyCompactList}\small\item\em Returns the user permissions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUser_a787f17670d7440ba8dd1878750c898f7}\label{classUser_a787f17670d7440ba8dd1878750c898f7}} 
+bool {\bfseries is\+AGuest} ()
+\item 
+\mbox{\Hypertarget{classUser_a43625144387db43f20412db40095b514}\label{classUser_a43625144387db43f20412db40095b514}} 
+bool {\bfseries operator$<$} (const \mbox{\hyperlink{classUser}{User}} \&) const
+\item 
+\mbox{\Hypertarget{classUser_a2b151d814ff24f339c4e2c22af601ea7}\label{classUser_a2b151d814ff24f339c4e2c22af601ea7}} 
+bool {\bfseries operator==} (const \mbox{\hyperlink{classUser}{User}} \&) const
+\item 
+\mbox{\Hypertarget{classUser_aabb5b319ef1639ed7cdaf32f98c83006}\label{classUser_aabb5b319ef1639ed7cdaf32f98c83006}} 
+void {\bfseries set\+Config} (\mbox{\hyperlink{classUserConfig}{User\+Config}} new\+Config)
+\item 
+\mbox{\Hypertarget{classUser_a7b79e8b6fc4210fa3fb1d89b4473e888}\label{classUser_a7b79e8b6fc4210fa3fb1d89b4473e888}} 
+void {\bfseries set\+Language} (std\+::string new\+Language)
+\item 
+\mbox{\Hypertarget{classUser_a7a2b3e64f4a201defc25c4fc41b37417}\label{classUser_a7a2b3e64f4a201defc25c4fc41b37417}} 
+void {\bfseries set\+Font\+Color} (std\+::array$<$ int, 3 $>$ new\+Font\+Color)
+\item 
+\mbox{\Hypertarget{classUser_aee2d6b82e6ead6068b7234ad07479952}\label{classUser_aee2d6b82e6ead6068b7234ad07479952}} 
+void {\bfseries set\+Background\+Color} (std\+::array$<$ int, 3 $>$ new\+Background\+Color)
+\item 
+\mbox{\Hypertarget{classUser_ab7734dc13d01738aeb85c40ae4cb5d99}\label{classUser_ab7734dc13d01738aeb85c40ae4cb5d99}} 
+void {\bfseries set\+Graphic\+Color} (std\+::array$<$ int, 3 $>$ new\+Graphic\+Color)
+\item 
+\mbox{\Hypertarget{classUser_a68f08222ab9561a6cda4cfb38dd631f4}\label{classUser_a68f08222ab9561a6cda4cfb38dd631f4}} 
+\mbox{\hyperlink{classUserConfig}{User\+Config}} $\ast$ {\bfseries get\+Configuration} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classUser_a1d2ac258ce357aaad247cff98118a085}\label{classUser_a1d2ac258ce357aaad247cff98118a085}} 
+char {\bfseries name} \mbox{[}21\mbox{]}
+\item 
+\mbox{\Hypertarget{classUser_a29d922c0a60037422d8fa92c16e414cd}\label{classUser_a29d922c0a60037422d8fa92c16e414cd}} 
+char {\bfseries NIF} \mbox{[}9\mbox{]}
+\item 
+\mbox{\Hypertarget{classUser_ab70502b0cb605dbd9ac03f31464c89a3}\label{classUser_ab70502b0cb605dbd9ac03f31464c89a3}} 
+char {\bfseries employee\+Number} \mbox{[}6\mbox{]}
+\item 
+\mbox{\Hypertarget{classUser_a6e0ab137b997835fe5d8d71af6eadd06}\label{classUser_a6e0ab137b997835fe5d8d71af6eadd06}} 
+char {\bfseries last\+Log\+Time} \mbox{[}25\mbox{]}
+\item 
+\mbox{\Hypertarget{classUser_abf90474182e8afa96fbd1da2c9e65b7b}\label{classUser_abf90474182e8afa96fbd1da2c9e65b7b}} 
+bool {\bfseries admin\+Permission}
+\item 
+\mbox{\Hypertarget{classUser_a0d9d485083e6b379c0c4c9206318c285}\label{classUser_a0d9d485083e6b379c0c4c9206318c285}} 
+bool {\bfseries is\+Guest}
+\item 
+\mbox{\Hypertarget{classUser_aac92c601e67c6ca2ca109d997fe1dd7a}\label{classUser_aac92c601e67c6ca2ca109d997fe1dd7a}} 
+\mbox{\hyperlink{classUserConfig}{User\+Config}} {\bfseries user\+Configuration}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classUser_abfe099b0ca9a4051e4cd9c15a31985ab}\label{classUser_abfe099b0ca9a4051e4cd9c15a31985ab}} 
+std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&, const \mbox{\hyperlink{classUser}{User}} \&)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUser_a54794305b09de5dddd9fae6d3ba38b6f}\label{classUser_a54794305b09de5dddd9fae6d3ba38b6f}} 
+\index{User@{User}!User@{User}}
+\index{User@{User}!User@{User}}
+\doxysubsubsection{\texorpdfstring{User()}{User()}}
+{\footnotesize\ttfamily User\+::\+User (\begin{DoxyParamCaption}\item[{std\+::string}]{number = {\ttfamily \char`\"{}00000\char`\"{}},  }\item[{std\+::string}]{nif = {\ttfamily \char`\"{}00000000\char`\"{}},  }\item[{std\+::string}]{name = {\ttfamily \char`\"{}default\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Create a new \mbox{\hyperlink{classUser}{User}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em employee\+Number} & \\
+\hline
+{\em NIF} & \\
+\hline
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUser_a446a64e63adafbc2e1428532275ad6a1}\label{classUser_a446a64e63adafbc2e1428532275ad6a1}} 
+\index{User@{User}!getName@{getName}}
+\index{getName@{getName}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string User\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the user name. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string \mbox{\hyperlink{classUser}{User}} name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUser_a1daf9314be358e15302de3a870895205}\label{classUser_a1daf9314be358e15302de3a870895205}} 
+\index{User@{User}!getTimestamp@{getTimestamp}}
+\index{getTimestamp@{getTimestamp}!User@{User}}
+\doxysubsubsection{\texorpdfstring{getTimestamp()}{getTimestamp()}}
+{\footnotesize\ttfamily std\+::string User\+::get\+Timestamp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns the timestamp. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string Timestamp 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUser_adc1e2382a4d6cb7887a65461487e3a7b}\label{classUser_adc1e2382a4d6cb7887a65461487e3a7b}} 
+\index{User@{User}!hasAdminPermission@{hasAdminPermission}}
+\index{hasAdminPermission@{hasAdminPermission}!User@{User}}
+\doxysubsubsection{\texorpdfstring{hasAdminPermission()}{hasAdminPermission()}}
+{\footnotesize\ttfamily bool User\+::has\+Admin\+Permission (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the user permissions. 
+
+\begin{DoxyReturn}{Returns}
+true = has admin pemissions 
+
+false = does not have admin permissions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUser_a4e454cafcaf339c671a8127b28de84d5}\label{classUser_a4e454cafcaf339c671a8127b28de84d5}} 
+\index{User@{User}!setEmployeeNumber@{setEmployeeNumber}}
+\index{setEmployeeNumber@{setEmployeeNumber}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setEmployeeNumber()}{setEmployeeNumber()}}
+{\footnotesize\ttfamily void User\+::set\+Employee\+Number (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+Employee\+Number }\end{DoxyParamCaption})}
+
+
+
+Set the user employee number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em employee\+Number} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classUser_a46ab8fe4ca46beed7de6735085ab77dc}\label{classUser_a46ab8fe4ca46beed7de6735085ab77dc}} 
+\index{User@{User}!setNIF@{setNIF}}
+\index{setNIF@{setNIF}!User@{User}}
+\doxysubsubsection{\texorpdfstring{setNIF()}{setNIF()}}
+{\footnotesize\ttfamily void User\+::set\+NIF (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+NIF }\end{DoxyParamCaption})}
+
+
+
+Set the user NIF. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NIF} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{User_8h}{User.\+h}}\item 
+src/\mbox{\hyperlink{User_8cpp}{User.\+cpp}}\end{DoxyCompactItemize}
