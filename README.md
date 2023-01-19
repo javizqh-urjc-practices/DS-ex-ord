@@ -1,7 +1,7 @@
 # Ex-Ord-DS
 Hay un problema que no me ha dado tiempo a corregir y es que al poner No al entrar como usuario, el programa no deja hacer login normal
 
-La solucion sería logearse usando el comando.Haz man jveh
+La solucion sería logearse usando el comando o dar enter en vez de poner N.Haz man jveh
 [Logo](doc/media/logo.png)
 
 Manage all your sensor from a single interface
